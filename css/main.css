@@ -1,0 +1,24 @@
+h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#games-list {
+  padding: 0px 40px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.game-item {
+  width: 400px;
+  border-bottom: 1px solid #b7b6b6;
+  display: flex;
+  padding: 10px 0;
+}
+
+.game-item > .rank {
+  width: 20%;
+  font-weight: bold;
+}
